@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>register</title>
+		<!-- 引入Bootstrap核心样式文件（必须） -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/login3.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- 引入所有的Bootstrap的JS插件 -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/login3.js"></script>
+		<style>
+			#header_top_logo {
+				background: url(img/header_logo.svg);
+				display: inline-block;
+				width: 43px;
+				height: 36px;
+				z-index: 20;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1 style="text-align: center;"><a id="header_top_logo"></a>腾讯视频<small>分享美好生活</small></h1>
+			</div>
+		</div>
+		<section id="admin" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 st_box" style="height:440px ;">
+						<div class="text-center">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab" data-toggle="tab" id="td">注册</a></li>
+							</ul>
+						</div>
+
+						<div class="tab-content" style="padding-top: 50px">
+							<div role="tabpanel" class="tab-pane  fade in active" id="product1">
+								<div class="container-fluid">
+									<div class="row">
+										<form action="skip_page.html" method="get">
+											<div class="form-group">
+												<label for="exampleInputEmail1">用户名</label>
+												<div class="input-group">
+													<span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+													<input type="text" class="form-control" id="exampleInputText" aria-describedby="inputGroupSuccess1Status" required>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="exampleInputEmail1">密码</label>
+												<div class="input-group">
+													<span class="input-group-addon">P</span>
+													<input type="password" class="form-control" id="exampleInputPassword" aria-describedby="inputGroupSuccess1Status" required>
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label for="exampleInputEmail1">确认密码</label>
+												<div class="input-group">
+													<span class="input-group-addon">P</span>
+													<input type="password" class="form-control" id="exampleInputPassword2" aria-describedby="inputGroupSuccess1Status" required>
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label for="exampleInputEmail1">电子邮箱</label>
+												<div class="input-group">
+													<span class="input-group-addon">@</span>
+													<input type="email" class="form-control" id="exampleInputEmail" aria-describedby="inputGroupSuccess1Status" required>
+												</div>
+											</div>
+											<button type="submit" class="btn btn-default ">提交</button>
+										</form>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</body>
+
+	<script>
+	</script>
+
+</html>

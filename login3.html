@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>login3</title>
+		<!-- 引入Bootstrap核心样式文件（必须） -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/login3.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- 引入所有的Bootstrap的JS插件 -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/login3.js"></script>
+		<style>
+			#header_top_logo {
+				background: url(img/header_logo.svg);
+				display: inline-block;
+				width: 43px;
+				height: 36px;
+				z-index: 20;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+
+			<div class="page-header">
+				<h1 style="text-align: center;"><a id="header_top_logo"></a>腾讯视频<small>分享美好生活</small></h1>
+			</div>
+		</div>
+		<section id="admin" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 st_box">
+						<div class="text-center">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab" data-toggle="tab" id="td">管理员登录</a></li>
+							</ul>
+						</div>
+
+						<div class="tab-content" style="padding-top: 50px">
+							<div role="tabpanel" class="tab-pane  fade in active" id="product1">
+								<div class="container-fluid">
+									<div class="row">
+										<form id="form_user" class="form-horizontal" action="/web_finnalWork/index.html" method="get">
+											<div class="form-group">
+												<label for="inputcf" class="col-sm-3 control-label">账号</label>
+												<div class="col-sm-8 position_absolute">
+													<input type="text" class="form-control width_input" id="inputcf" placeholder="" name="userName" required>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputda" class="col-sm-3 control-label">密码</label>
+												<div class="col-sm-8">
+													<input type="password" class="form-control width_input" id="inputda" placeholder="" name="passWord" required>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-sm-offset-3 col-sm-5">
+													<button type="button" class="btn btn-default  bgbtn" onclick="submit1()">登录</button>
+													<button type="button" class="btn btn-default  bgbtn" style="margin-left: 57px;" onclick="register()">注册</button>
+												</div>
+											</div>
+										</form>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="pover1" style="display: none;">
+				<div class="alert alert-warning alert-danger" role="alert">
+					<button type="button" class="close" aria-label="Close" onclick="alert_click()"><span aria-hidden="true" id="span_alert" >&times;</span></button>
+					<strong>警告！</strong> 信息为空或者账号密码错误
+				</div>
+			</div>
+		</section>
+	</body>
+
+	<script>
+	</script>
+
+</html>

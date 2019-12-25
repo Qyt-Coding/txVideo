@@ -1,0 +1,25 @@
+[1227/125405:ERROR:proxy_service_factory.cc(105)] Cannot use V8 Proxy resolver in single process mode.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.
+[1227/125406:ERROR:command_buffer_proxy_impl.cc(156)] Failed to initialize command buffer service.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(394)] CommandBufferProxy::Initialize failed.
+[1227/125406:ERROR:webgraphicscontext3d_command_buffer_impl.cc(413)] Failed to initialize command buffer.

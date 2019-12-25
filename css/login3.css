@@ -1,0 +1,41 @@
+#admin{
+    width: 100%;
+    min-height: 640px;
+    border: 1px solid #000;
+    position: relative;
+    background: url(../img/banner-bg.png);
+    background-size: cover;
+    background-color: #111;
+}
+#admin .st_box{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    z-index: 100;
+    background-color:#fff ;
+    height: 280px;
+    position: relative;
+}
+#inputcf ,#inputda{
+	display: inline-block;
+	
+}
+.width_input{
+	width: 81%;
+}
+label.error{
+	background:url(../img/unchecked.gif) no-repeat 10px 3px;
+	/*padding-left: 30px;*/
+	font-family:georgia;
+	font-size: 15px;
+	font-style: normal;
+	color: red;
+}
+
+#pover1{
+	width: 486px;
+	height: 51px;
+	position: absolute;
+	top: 275px;
+	left: 174px;
+	z-index: 1000;
+}
